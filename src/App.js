@@ -48,7 +48,7 @@ function App() {
 
   let componente;
   if(error) {
-    componente = <Error mensaje="No hay resultado" />
+    componente = <Error mensaje="No hay resultados" />
   } else {
     componente = <Clima resultado={resultado} />
   }
